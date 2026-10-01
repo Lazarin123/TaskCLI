@@ -1,0 +1,36 @@
+# Binário e objetos
+taskcli
+taskcli.exe
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.d
+
+# Dados do usuário (não versionar tarefas pessoais)
+tasks.txt
+*.tmp
+
+# Depuração e análise
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+core
+core.*
+vgcore.*
+callgrind.out.*
+*.log
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*~
+.cache/
+compile_commands.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
